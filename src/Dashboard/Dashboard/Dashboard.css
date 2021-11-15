@@ -1,0 +1,26 @@
+.tabs.row a {
+    color: #000;
+    cursor: pointer;
+}
+
+h1.dashboardUpHeading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #01b1ec;
+}
+
+button.btnbtn {
+    width: 100%;
+    margin: 6px 0;
+    padding: 5px 0;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #4444;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+button.btnbtn:hover {
+    background-color: #01b1ec;
+}

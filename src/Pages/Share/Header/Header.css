@@ -1,0 +1,146 @@
+.support_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.support_info li {
+    margin-right: 15px;
+    color: #444444;
+}
+
+.support_info li a {
+    font-size: 16px;
+    color: #444444;
+    text-decoration: none;
+}
+
+.social_icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: right;
+}
+
+.social_icons li {
+    margin: 0 15px;
+    color: #444444;
+}
+
+.social_icons li a {
+    font-size: 20px;
+    color: #444444;
+    text-decoration: none;
+}
+
+.social_icons li a:hover {
+    color: #01b1ec;
+}
+
+.top_bar {
+    padding-top: 3px;
+    border-bottom: 1px solid #01b1ec;
+}
+
+.Main_header {
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 8%) !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 8%) !important;
+}
+
+.main_mane a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+    border-bottom: 1px solid transparent;
+    margin-right: 10px;
+}
+
+.main_mane a:hover {
+    border-bottom: 1px solid #01b1ec;
+    color: #01b1ec;
+}
+
+.main_mane.right a {
+    font-size: 16px;
+}
+
+.social_icons img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #01b1ec;
+    padding: 2px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.social_icons.admin {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main_mane.right {
+    align-items: center;
+}
+
+.navbar-brand img {
+    max-width: 170px;
+}
+
+ul.support_info {
+    padding: 0;
+    list-style: none;
+}
+
+ul.social_icons {
+    padding: 0;
+    list-style: none;
+}
+
+ul.social_icons.admin li {
+    text-transform: uppercase;
+    color: #01b1ec;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main_mane a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main_mane {
+        padding: 10px;
+    }
+    .main_mane.right.navbar-nav {
+        padding-top: 0;
+    }
+    .main_mane a {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social_icons {
+        justify-content: center;
+    }
+    .support_info {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social_icons {
+        display: none;
+    }
+    .support_info {
+        display: none;
+    }
+}

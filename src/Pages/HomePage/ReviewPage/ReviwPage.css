@@ -1,0 +1,17 @@
+.client-heading {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.client-subtitle {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.react-stars span {
+    color: #01b1ec !important;
+}

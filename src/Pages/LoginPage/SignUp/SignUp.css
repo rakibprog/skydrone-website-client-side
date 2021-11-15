@@ -1,0 +1,47 @@
+form.createFrom {
+  max-width: 500px;
+  margin: auto;
+  background: #f3f3f3 none repeat scroll 0 0;
+  padding: 25px;
+  border-radius: 5px;
+  margin: 0 auto 50px auto;
+}
+div.login-text {
+  box-sizing: border-box;
+  color: #333333;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+@media print {
+  div.login-text {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
+.login-text h2 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.login-text p {
+  color: #666;
+  font-size: 15px;
+}
+.loginTextBox {
+  text-align: center;
+  margin-top: 30px;
+}
+.loginTextBox p {
+  margin: 0;
+}
+.errorSms {
+  margin-bottom: 5px;
+  margin-top: -14px;
+  margin-left: 5px;
+  text-transform: capitalize;
+  color: red;
+}

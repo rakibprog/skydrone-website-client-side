@@ -1,0 +1,124 @@
+.productCart h5 {
+    background: 0px 0px;
+    box-sizing: border-box;
+    color: #333333;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.productCart.card p {
+    color: #444444;
+}
+
+.productCart h5:focus {
+    color: inherit;
+    outline: 0px;
+    text-decoration: none;
+}
+
+.productCart h5:hover {
+    color: #01b1ec;
+    text-decoration: none;
+}
+
+@media print {
+    .productCart h5 {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    .productCart h5 {
+        text-decoration: underline;
+    }
+}
+
+p.product-price {
+    box-sizing: border-box;
+    color: #333333;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px 0px 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+@media print {
+    p.product-price {
+        box-shadow: none !important;
+        orphans: 3;
+        text-shadow: none !important;
+        widows: 3;
+    }
+}
+
+span.money {
+    box-sizing: border-box;
+    color: #01b1ec;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    font-size: 18px;
+}
+
+@media print {
+    span.money {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+.product-price .main-price.discounted {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: line-through;
+    color: #868686;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.productCart button.custombtn {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #01b1ec;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.productCart button.custombtn:hover {
+    background-color: #000;
+}
+
+p.product-price {
+    margin-top: 10px;
+}
+
+.productCart.card img {
+    max-height: 400px;
+    object-fit: cover !important;
+    padding: 20px;
+}
+
+.productCart.card {
+    height: 100%;
+}

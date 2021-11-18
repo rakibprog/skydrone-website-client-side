@@ -1,0 +1,200 @@
+.bannertwo div.row.align-items-center {
+    align-items: center;
+    box-sizing: border-box;
+    color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: left;
+}
+
+@media print {
+    .bannertwo div.row.align-items-center {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+.bannertwo h5 {
+    box-sizing: border-box;
+    color: #01b1ec;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.view-btn {
+    border-radius: 15px;
+}
+
+@media print {
+    .bannertwo h5 {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+.bannertwo h4 {
+    box-sizing: border-box;
+    color: #333333;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+    text-align: left;
+}
+
+@media print {
+    .bannertwo h4 {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bannertwo h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bannertwo h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bannertwo h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .bannertwo h4 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+
+.bannertwo h3 {
+    box-sizing: border-box;
+    color: #333333;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+    text-align: left;
+}
+
+@media print {
+    .bannertwo h3 {
+        box-shadow: none !important;
+        break-after: avoid;
+        orphans: 3;
+        text-shadow: none !important;
+        widows: 3;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bannertwo h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bannertwo h3 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bannertwo h3 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .bannertwo h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+.bannertwo a.theme-button.theme-button--outline.banner-button {
+    background: #ffffff;
+    border: 1px solid #01b1ec;
+    box-sizing: border-box;
+    color: #01b1ec;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    padding: 0px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.bannertwo a.theme-button.theme-button--outline.banner-button:focus {
+    color: inherit;
+    outline: 0px;
+    text-decoration: none;
+}
+
+.bannertwo a.theme-button.theme-button--outline.banner-button:hover {
+    background-color: #01b1ec;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media print {
+    .bannertwo a.theme-button.theme-button--outline.banner-button {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    .bannertwo a.theme-button.theme-button--outline.banner-button {
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .bannertwo a.theme-button.theme-button--outline.banner-button {
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0px 15px;
+    }
+}
+
+.bannertwo {
+    padding: 50px 0;
+}
+
+.dronep {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,76 @@
+.productHome h3 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: #333333;
+    font-family: 'Heebo', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    left: 0px;
+    line-height: 27px;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    position: relative;
+    right: 0px;
+    text-align: left;
+    text-transform: capitalize;
+    top: 0px;
+    margin-bottom: 50px;
+}
+
+.productHome h3::after {
+    background: #01b1ec;
+    bottom: 0px;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 66px;
+}
+
+@media print {
+    .productHome h3 {
+        box-shadow: none !important;
+        break-after: avoid;
+        orphans: 3;
+        text-shadow: none !important;
+        widows: 3;
+    }
+}
+
+.productHome {
+    padding: 50px 0;
+}
+
+.productHome button.custombtn {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: #01b1ec;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.sectionHeading h2 {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sectionHeading p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}

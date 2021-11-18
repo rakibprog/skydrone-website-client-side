@@ -1,0 +1,71 @@
+.footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer-area {
+    padding: 20px;
+}
+
+.footer-copyright {
+    padding: 20px;
+}
+
+.footer-area {
+    background-color: #fff;
+}
+
+.footer-copyright {
+    background-color: #1e272e;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.logo-text h2 {
+    color: #1e272e;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.logo-description {
+    color: #9a9a9a;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+
+.destination-title {
+    color: #1e272e;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+}
+
+.list-item ul li a {
+    text-decoration: none;
+    color: #9a9a9a;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+
+.list-item ul li {
+    list-style: none;
+}
+
+.list-item ul {
+    padding: 0px;
+}
+
+.list-item ul li a:hover {
+    color: #14b9d5;
+}

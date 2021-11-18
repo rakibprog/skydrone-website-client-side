@@ -12,7 +12,7 @@ const BannerTwo = () => {
                         <div className="full-banner__content">
                           <h2 className="client-heading">Save Your Time,Use Bold Builder!</h2>
                            <p className="dronep">Best practices on the market collected in one easy to use page builder.
-Bold Builder is a free WordPress page builder. It integrated with this theme and it features drag and drop interface, many content elements, clipboard functionality and has the fastest user interface around.
+Bold Builder is a free WordPress page builderrr. It integrated with this theme and it features drag and drop interface, many content elements, clipboard functionality and has the fastest user interface around.
 </p>
                             <Link className="theme-button theme-button--outline banner-button view-btn" to="/shop">
                                  View Features
